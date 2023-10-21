@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7AAC8532-FB8D-4878-9176-7981E80DC14D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStore.Domain", "AppStore.Domain\AppStore.Domain.csproj", "{2A50F64A-CDCE-4E43-B800-E59E44FFB6E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{DDF7DCE8-7C1A-49E3-A825-758C0A2E6DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStore.Api", "AppStore.Api\AppStore.Api.csproj", "{3ACD26C3-BDF7-4E83-A9A4-732B6866C8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStore.Application", "AppStore.Application\AppStore.Application.csproj", "{B545E25E-942D-45EF-BDD5-2D9DB111C7C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{FB3A7742-9D31-43D5-B101-C03D9CA68391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStore.Data", "AppStore.Data\AppStore.Data.csproj", "{5A00EDB8-8536-4AD5-8C9D-D26875A656C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppStore.CrossCutting", "AppStore.CrossCutting\AppStore.CrossCutting.csproj", "{4454D935-354C-4FEB-B9A2-A7944C82FC54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A50F64A-CDCE-4E43-B800-E59E44FFB6E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A50F64A-CDCE-4E43-B800-E59E44FFB6E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A50F64A-CDCE-4E43-B800-E59E44FFB6E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A50F64A-CDCE-4E43-B800-E59E44FFB6E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACD26C3-BDF7-4E83-A9A4-732B6866C8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACD26C3-BDF7-4E83-A9A4-732B6866C8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACD26C3-BDF7-4E83-A9A4-732B6866C8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACD26C3-BDF7-4E83-A9A4-732B6866C8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B545E25E-942D-45EF-BDD5-2D9DB111C7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B545E25E-942D-45EF-BDD5-2D9DB111C7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B545E25E-942D-45EF-BDD5-2D9DB111C7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B545E25E-942D-45EF-BDD5-2D9DB111C7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A00EDB8-8536-4AD5-8C9D-D26875A656C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A00EDB8-8536-4AD5-8C9D-D26875A656C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A00EDB8-8536-4AD5-8C9D-D26875A656C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A00EDB8-8536-4AD5-8C9D-D26875A656C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4454D935-354C-4FEB-B9A2-A7944C82FC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4454D935-354C-4FEB-B9A2-A7944C82FC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4454D935-354C-4FEB-B9A2-A7944C82FC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4454D935-354C-4FEB-B9A2-A7944C82FC54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A50F64A-CDCE-4E43-B800-E59E44FFB6E9} = {7AAC8532-FB8D-4878-9176-7981E80DC14D}
+		{3ACD26C3-BDF7-4E83-A9A4-732B6866C8FF} = {DDF7DCE8-7C1A-49E3-A825-758C0A2E6DFD}
+		{B545E25E-942D-45EF-BDD5-2D9DB111C7C9} = {7AAC8532-FB8D-4878-9176-7981E80DC14D}
+		{5A00EDB8-8536-4AD5-8C9D-D26875A656C4} = {FB3A7742-9D31-43D5-B101-C03D9CA68391}
+		{4454D935-354C-4FEB-B9A2-A7944C82FC54} = {FB3A7742-9D31-43D5-B101-C03D9CA68391}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49B87027-A68A-4CEB-9564-184390CD7535}
+	EndGlobalSection
+EndGlobal
